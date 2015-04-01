@@ -1,4 +1,4 @@
-<?php namespace Niiyz\Facades;
+<?php namespace Niiyz\CSV\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
