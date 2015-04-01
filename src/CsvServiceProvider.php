@@ -9,7 +9,7 @@ class CsvServiceProvider extends ServiceProvider
     {
         $this->app->bindshared('csv', function()
         {
-            return new Csv;
+            return new CsvDownload;
         });
 
     }

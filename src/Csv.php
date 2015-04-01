@@ -2,7 +2,7 @@
 
 use Response;
 
-class CSV
+class CsvDownload
 {
     /**
      * Csv Data
