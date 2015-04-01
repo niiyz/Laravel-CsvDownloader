@@ -1,5 +1,6 @@
 <?php namespace Niiyz\CSV;
 
+use Niiyz\CSV\CsvDownload;
 use Illuminate\Support\ServiceProvider;
 
 class CsvServiceProvider extends ServiceProvider
