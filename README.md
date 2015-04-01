@@ -24,6 +24,10 @@ You can use the facade for shorter code. Add this to your aliases:
 
 The class is bound to the ioC as `csv`
 
+```php
+use Csv;
+```
+
 Sample.1
 ```php
 Csv::create([[1, 2, 3], [10, 20, 30]], []);
