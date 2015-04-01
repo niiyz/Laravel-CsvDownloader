@@ -1,0 +1,23 @@
+{
+  "name": "niiyz/laravel-csv",
+  "description": "Laravel5 Simple CSV Downloader",
+  "keywords": [
+    "Laravel5",
+    "csv",
+    "download"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "homepage": "https://github.com/niiyz/Laravel-CsvDownloader",
+  "authors": [
+    {
+      "name": "niiyz",
+      "email": "yoshida@niiyz.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Niiyz\\Csv\\": "src"
+    }
+  }
+}
