@@ -7,7 +7,7 @@ Laravel-CsvDownloader is Very Simple Csv Downloader
 Require this package in your `composer.json` and update composer.
 
 ```php
-"niiyz/laravel-csv": "~1.0.0"
+"niiyz/laravel-csv": "~0.1"
 ```
 
 After updating composer, add the ServiceProvider to the providers array in `config/app.php`
