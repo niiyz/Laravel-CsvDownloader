@@ -1,6 +1,5 @@
-<?php namespace Niiyz\CSV;
+<?php namespace Niiyz\Csv;
 
-use Niiyz\CSV\CsvDownload;
 use Illuminate\Support\ServiceProvider;
 
 class CsvServiceProvider extends ServiceProvider
@@ -10,7 +9,7 @@ class CsvServiceProvider extends ServiceProvider
     {
         $this->app->bindshared('csv', function()
         {
-            return new CsvDownload;
+            return new  CsvDownload;
         });
 
     }

@@ -1,8 +1,8 @@
-<?php namespace Niiyz\CSV\Facades;
+<?php namespace Niiyz\Csv\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
-class CSV extends Facade
+class Csv extends Facade
 {
 
     public static function getFacadeAccessor()

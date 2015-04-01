@@ -1,4 +1,4 @@
-<?php namespace Niiyz\CSV;
+<?php namespace Niiyz\Csv;
 
 use Response;
 
@@ -12,11 +12,18 @@ class CsvDownload
 
     /**
      * Construct Csv
+     */
+    public function __construct()
+    {
+    }
+
+    /**
+     * create Csv
      * @param array $list
      * @param array $header
-     * @return CSV
+     * @return void
      */
-    public function __construct(Array $list, Array $header = [])
+    public function create(Array $list, Array $header = [])
     {
         if (count($header) > 0) {
             array_unshift($list, $header);
