@@ -23,14 +23,14 @@ class CsvDownload
      * @param array $header
      * @return void
      */
-    public function create(Array $list, Array $header = [])
+    public function create(Array $list, Array $header = [], $delimiter = ',')
     {
         if (count($header) > 0) {
             array_unshift($list, $header);
         }
         $stream = fopen('php://temp', 'r+b');
         foreach ($list as $row) {
-            fputcsv($stream, $row);
+            fputcsv($stream, $row, $delimiter);
         }
         rewind($stream);
         $this->csv = str_replace(PHP_EOL, "\r\n", stream_get_contents($stream));
