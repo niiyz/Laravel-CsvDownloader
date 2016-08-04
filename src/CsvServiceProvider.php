@@ -7,7 +7,7 @@ class CsvServiceProvider extends ServiceProvider
 
     public function register()
     {
-        $this->app->bindshared('csv', function()
+        $this->app->singleton('csv', function()
         {
             return new  CsvDownload;
         });
